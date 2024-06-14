@@ -1,0 +1,76 @@
+﻿@model CoursesMVC.Models.DTO.StudentDTO
+
+@{
+    ViewData["Title"] = "Thêm Sinh Viên";
+}
+
+<h2 class="text-center mt-4">@ViewData["Title"]</h2>
+<div class="container mt-4">
+    <div class="card custom-border">
+        <div class="card-body">
+            <form asp-controller="Student" asp-action="AddStudent" method="post" class="needs-validation" novalidate>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="StudentName" class="fw-bold">Tên Sinh Viên:</label>
+                            @Html.TextBoxFor(model => model.StudentName, new { @class = "form-control", placeholder = "Nhập tên sinh viên", required = "required" })
+                            <div class="invalid-feedback">
+                                Vui lòng nhập tên sinh viên.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Phones" class="fw-bold">Số Điện Thoại:</label>
+                            @Html.TextBoxFor(model => model.Phones, new { @class = "form-control", placeholder = "Nhập số điện thoại", required = "required" })
+                            <div class="invalid-feedback">
+                                Vui lòng nhập số điện thoại.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Email" class="fw-bold">Email:</label>
+                            @Html.TextBoxFor(model => model.Email, new { @class = "form-control", placeholder = "Nhập địa chỉ email", required = "required", type = "email" })
+                            <div class="invalid-feedback">
+                                Vui lòng nhập địa chỉ email hợp lệ.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Thêm</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    .custom-border {
+        border: 4px solid #000; /* Tạo viền đen và dày hơn */
+        border-radius: 15px; /* Tạo góc bo tròn hơn */
+    }
+</style>
+
+@section Scripts {
+    <script>
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                var forms = document.getElementsByClassName('needs-validation');
+                Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+}

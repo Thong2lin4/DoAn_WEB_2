@@ -1,0 +1,127 @@
+﻿@model CoursesMVC.Models.DTO.LoginDTO
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="assets/images/coffee-icon-sign-symbol-design-free-png.webp" type="image/x-icon">
+    <meta name="description" content="">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="~/API_DoAn/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/API_DoAn/assets/theme/css/style.css">
+    <link rel="stylesheet" href="~/API_DoAn/assets/mobirise/css/mbr-additional.css" type="text/css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align items to the top */
+            height: 100vh;
+            padding-top: 50px; /* Adjust the top padding to move the form down */
+        }
+
+        .card {
+            border-radius: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+
+        .card-title {
+            font-weight: bold;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            transition: background-color 0.3s ease;
+            font-size: 1.25rem;
+            padding: 0.75rem 1.5rem;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border: none;
+            transition: background-color 0.3s ease;
+            font-size: 1.25rem;
+            padding: 0.75rem 1.5rem;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+            }
+
+        .form-group label {
+            font-weight: 500;
+            font-size: 1.25rem;
+        }
+
+        .form-control {
+            font-size: 1.25rem;
+            padding: 0.75rem;
+        }
+
+        .form-check-label {
+            font-weight: 400;
+            font-size: 1.25rem;
+        }
+
+        .text-danger {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="content2 cid-tsEQSCqggh" id="content2-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title mbr-section-title mbr-fonts-style align-center mb-4 display-2">Login</h2>
+                            @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+                            {
+                                <div class="form-group mb-3">
+                                    @Html.LabelFor(m => m.Username, "Username:", new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "user@example.com" })
+                                    @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group mb-3">
+                                    @Html.LabelFor(m => m.Password, "Password:", new { @class = "form-label" })
+                                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                </div>
+
+                                <div class="form-group form-check mb-3">
+                                    <input type="checkbox" class="form-check-input" id="remember-me">
+                                    <label class="form-check-label" for="remember-me">Remember me</label>
+                                </div>
+
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button type="submit" class="btn btn-primary">Login</button>
+                                    <a href="@Url.Action("Register", "Login")" class="btn btn-secondary">Register</a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="~/API_DoAn/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="auth.js"></script>
+</body>
+
+</html>

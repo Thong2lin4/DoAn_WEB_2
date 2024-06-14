@@ -1,0 +1,69 @@
+﻿@model CoursesMVC.Models.DTO.StudentDTO
+
+@{
+    ViewData["Title"] = "Chỉnh Sửa Học Sinh";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CoursesMVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        .form-container {
+            max-width: 600px;
+            margin: auto;
+            background: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="form-container">
+            <h2 class="form-title">@ViewData["Title"]</h2>
+            <form asp-controller="Student" asp-action="Edit" method="post">
+                <div class="form-group mb-3">
+                    <label>ID Học Sinh:</label>
+                    @Html.TextBoxFor(model => model.StudentID, new { @class = "form-control", placeholder = "Enter student ID", @readonly = "readonly" })
+                </div>
+                <div class="form-group mb-3">
+                    <label>Tên Học Sinh:</label>
+                    @Html.TextBoxFor(model => model.StudentName, new { @class = "form-control", placeholder = "Enter student name" })
+                </div>
+                <div class="form-group mb-3">
+                    <label>Số Điện Thoại:</label>
+                    @Html.TextBoxFor(model => model.Phones, new { @class = "form-control", placeholder = "Enter phone number" })
+                </div>
+                <div class="form-group mb-3">
+                    <label>Email:</label>
+                    @Html.TextBoxFor(model => model.Email, new { @class = "form-control", placeholder = "Enter email address" })
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Lưu Thay Đổi</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

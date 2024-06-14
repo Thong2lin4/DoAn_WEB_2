@@ -1,0 +1,857 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DoAnAPI\\CoursesAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\courses\\addcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\courses\\addcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\student\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\student\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\models\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\models\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\model\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\model\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\model\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\model\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\model\\dto\\addstudentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\model\\dto\\addstudentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\model\\dto\\addcoursesrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\model\\dto\\addcoursesrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\model\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\model\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\model\\domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\model\\domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\model\\domain\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\model\\domain\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\courses\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\courses\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\courses\\editcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\courses\\editcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\models\\dto\\coursesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\models\\dto\\coursesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\model\\dto\\coursesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\model\\dto\\coursesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\models\\dto\\addcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\models\\dto\\addcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\models\\dto\\loginregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\models\\dto\\loginregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\repositories\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\repositories\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\repositories\\sqlstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\repositories\\sqlstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\repositories\\sqlcoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\repositories\\sqlcoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\repositories\\icoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\repositories\\icoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\migrations\\coursesdb\\20240610084917_databaseapi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\migrations\\coursesdb\\20240610084917_databaseapi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\migrations\\coursesdb\\coursesdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\migrations\\coursesdb\\coursesdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\model\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\model\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\model\\domain\\coursesstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\model\\domain\\coursesstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\data\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\data\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\data\\coursesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\data\\coursesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|d:\\doanapi\\coursesapi\\coursesmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACDA688-C731-4A3D-8BA3-9D329A805B11}|CoursesMVC\\CoursesMVC.csproj|solutionrelative:coursesmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\migrations\\20240608103008_web2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\migrations\\20240608103008_web2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|d:\\doanapi\\coursesapi\\coursesapi\\migrations\\coursesdb\\20240610084917_databaseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E81313-714C-40D7-9B7F-3A2241448480}|CoursesAPI\\CoursesAPI.csproj|solutionrelative:coursesapi\\migrations\\coursesdb\\20240610084917_databaseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CoursesMVC\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CoursesMVC\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAAwLMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T03:21:47.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAIwEgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T14:12:47.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\DTO\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "CoursesMVC\\Models\\DTO\\StudentDTO.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\DTO\\StudentDTO.cs",
+              "RelativeToolTip": "CoursesMVC\\Models\\DTO\\StudentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T03:23:29.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\Student\\Index.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T03:30:50.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T03:43:48.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Student\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\Student\\ChiTiet.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Student\\ChiTiet.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\Student\\ChiTiet.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAIwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T15:16:01.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAYwCgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T19:36:36.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddCourses.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Courses\\AddCourses.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\Courses\\AddCourses.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Courses\\AddCourses.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\Courses\\AddCourses.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAIwGgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T16:05:54.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CoursesMVC\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CoursesMVC\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwFIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:50:05.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "CoursesMVC\\Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "CoursesMVC\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:09:48.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Model\\DTO\\LoginResponseDTO.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\LoginResponseDTO.cs",
+              "RelativeToolTip": "CoursesAPI\\Model\\DTO\\LoginResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:26:00.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Model\\DTO\\LoginRequestDTO.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\LoginRequestDTO.cs",
+              "RelativeToolTip": "CoursesAPI\\Model\\DTO\\LoginRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:35:00.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddStudentRequestDTO.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\AddStudentRequestDTO.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Model\\DTO\\AddStudentRequestDTO.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\AddStudentRequestDTO.cs",
+              "RelativeToolTip": "CoursesAPI\\Model\\DTO\\AddStudentRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:31:54.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddCoursesRequestDTO.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\AddCoursesRequestDTO.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Model\\DTO\\AddCoursesRequestDTO.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\AddCoursesRequestDTO.cs",
+              "RelativeToolTip": "CoursesAPI\\Model\\DTO\\AddCoursesRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:31:35.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Model\\DTO\\StudentDTO.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\StudentDTO.cs",
+              "RelativeToolTip": "CoursesAPI\\Model\\DTO\\StudentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:32:16.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\Domain\\Student.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Model\\Domain\\Student.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\Domain\\Student.cs",
+              "RelativeToolTip": "CoursesAPI\\Model\\Domain\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:30:36.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\Domain\\Courses.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Model\\Domain\\Courses.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\Domain\\Courses.cs",
+              "RelativeToolTip": "CoursesAPI\\Model\\Domain\\Courses.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:30:30.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CoursesAPI\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:29:42.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "CoursesAPI\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAF0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:29:18.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Courses\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\Courses\\ChiTiet.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Courses\\ChiTiet.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\Courses\\ChiTiet.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAF0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T17:02:57.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "editCourses.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Courses\\editCourses.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\Courses\\editCourses.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Courses\\editCourses.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\Courses\\editCourses.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAIwDkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T17:57:17.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\Login\\Register.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\Login\\Register.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T18:41:04.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddStudent.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Student\\AddStudent.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\Student\\AddStudent.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Student\\AddStudent.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\Student\\AddStudent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAB/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T03:37:08.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CoursesAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowBkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:51:30.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CoursesDTO.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\DTO\\CoursesDTO.cs",
+              "RelativeDocumentMoniker": "CoursesMVC\\Models\\DTO\\CoursesDTO.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\DTO\\CoursesDTO.cs",
+              "RelativeToolTip": "CoursesMVC\\Models\\DTO\\CoursesDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:15:28.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CoursesDTO.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\CoursesDTO.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Model\\DTO\\CoursesDTO.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\CoursesDTO.cs",
+              "RelativeToolTip": "CoursesAPI\\Model\\DTO\\CoursesDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:31:09.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "addCourses.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\DTO\\addCourses.cs",
+              "RelativeDocumentMoniker": "CoursesMVC\\Models\\DTO\\addCourses.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\DTO\\addCourses.cs",
+              "RelativeToolTip": "CoursesMVC\\Models\\DTO\\addCourses.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:16:11.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\Login\\Login.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAH8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T18:39:01.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginRegisterDTO.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\DTO\\LoginRegisterDTO.cs",
+              "RelativeDocumentMoniker": "CoursesMVC\\Models\\DTO\\LoginRegisterDTO.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\DTO\\LoginRegisterDTO.cs",
+              "RelativeToolTip": "CoursesMVC\\Models\\DTO\\LoginRegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:26:30.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "CoursesMVC\\Models\\DTO\\LoginDTO.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "CoursesMVC\\Models\\DTO\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:25:13.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Program.cs",
+              "RelativeDocumentMoniker": "CoursesMVC\\Program.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Program.cs",
+              "RelativeToolTip": "CoursesMVC\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:12:52.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "CoursesAPI\\appsettings.json",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\appsettings.json",
+              "RelativeToolTip": "CoursesAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-08T09:23:32.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "CoursesMVC\\appsettings.json",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\appsettings.json",
+              "RelativeToolTip": "CoursesMVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T18:31:53.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TokenRepository.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\TokenRepository.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Repositories\\TokenRepository.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\TokenRepository.cs",
+              "RelativeToolTip": "CoursesAPI\\Repositories\\TokenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:09:39.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SQLStudentRepository.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\SQLStudentRepository.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Repositories\\SQLStudentRepository.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\SQLStudentRepository.cs",
+              "RelativeToolTip": "CoursesAPI\\Repositories\\SQLStudentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:34:01.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SQLCoursesRepository.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\SQLCoursesRepository.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Repositories\\SQLCoursesRepository.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\SQLCoursesRepository.cs",
+              "RelativeToolTip": "CoursesAPI\\Repositories\\SQLCoursesRepository.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAcwIAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:33:44.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ITokenRepository.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\ITokenRepository.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Repositories\\ITokenRepository.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\ITokenRepository.cs",
+              "RelativeToolTip": "CoursesAPI\\Repositories\\ITokenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:25:25.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Repositories\\IStudentRepository.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\IStudentRepository.cs",
+              "RelativeToolTip": "CoursesAPI\\Repositories\\IStudentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:33:29.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ICoursesRepository.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\ICoursesRepository.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Repositories\\ICoursesRepository.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Repositories\\ICoursesRepository.cs",
+              "RelativeToolTip": "CoursesAPI\\Repositories\\ICoursesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:33:21.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CoursesAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:28:01.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Program.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Program.cs",
+              "RelativeToolTip": "CoursesAPI\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwCsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:10:34.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20240610084917_databaseapi.Designer.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Migrations\\CoursesDB\\20240610084917_databaseapi.Designer.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Migrations\\CoursesDB\\20240610084917_databaseapi.Designer.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Migrations\\CoursesDB\\20240610084917_databaseapi.Designer.cs",
+              "RelativeToolTip": "CoursesAPI\\Migrations\\CoursesDB\\20240610084917_databaseapi.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:39:58.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CoursesDBContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Migrations\\CoursesDB\\CoursesDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Migrations\\CoursesDB\\CoursesDBContextModelSnapshot.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Migrations\\CoursesDB\\CoursesDBContextModelSnapshot.cs",
+              "RelativeToolTip": "CoursesAPI\\Migrations\\CoursesDB\\CoursesDBContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:42:15.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RegisterRequestDTO.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\RegisterRequestDTO.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Model\\DTO\\RegisterRequestDTO.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\DTO\\RegisterRequestDTO.cs",
+              "RelativeToolTip": "CoursesAPI\\Model\\DTO\\RegisterRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:53:19.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CoursesStudent.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\Domain\\CoursesStudent.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Model\\Domain\\CoursesStudent.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Model\\Domain\\CoursesStudent.cs",
+              "RelativeToolTip": "CoursesAPI\\Model\\Domain\\CoursesStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:30:57.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SQL.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Data\\SQL.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Data\\SQL.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Data\\SQL.cs",
+              "RelativeToolTip": "CoursesAPI\\Data\\SQL.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:30:08.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CoursesDBContext.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Data\\CoursesDBContext.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Data\\CoursesDBContext.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Data\\CoursesDBContext.cs",
+              "RelativeToolTip": "CoursesAPI\\Data\\CoursesDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:40:47.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20240610084917_databaseapi.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Migrations\\CoursesDB\\20240610084917_databaseapi.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Migrations\\CoursesDB\\20240610084917_databaseapi.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Migrations\\CoursesDB\\20240610084917_databaseapi.cs",
+              "RelativeToolTip": "CoursesAPI\\Migrations\\CoursesDB\\20240610084917_databaseapi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:49:18.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20240608103008_Web2.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Migrations\\20240608103008_Web2.cs",
+              "RelativeDocumentMoniker": "CoursesAPI\\Migrations\\20240608103008_Web2.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesAPI\\Migrations\\20240608103008_Web2.cs",
+              "RelativeToolTip": "CoursesAPI\\Migrations\\20240608103008_Web2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:30:08.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CoursesMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CoursesMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:14:23.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T14:13:59.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CoursesMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\DoAnAPI\\CoursesAPI\\CoursesMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CoursesMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T14:13:58.42Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+﻿@model CoursesMVC.Models.DTO.LoginRegisterDTO
+
+@{
+    ViewData["Title"] = "Đăng Ký";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <div class="card-body p-5">
+                    <h2 class="card-title text-center mb-4">@ViewData["Title"]</h2>
+                    <form asp-controller="Login" asp-action="Register" method="post">
+                        <div class="mb-3">
+                            <label asp-for="Username" class="form-label">Email</label>
+                            <input asp-for="Username" class="form-control" placeholder="user@example.com" aria-describedby="textHelp">
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Password" class="form-label">Password</label>
+                            <input asp-for="Password" type="password" class="form-control" placeholder="user123">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Roles" class="form-label">Roles</label>
+                            <select asp-for="Roles" class="form-control">
+                                <option value="Read">Read</option>
+                                <option value="Write">Write</option>
+                            </select>
+                            <span asp-validation-for="Roles" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 py-2 fs-5 mb-4 rounded">Register</button>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class="text-primary fw-bold ms-2" asp-controller="Login" asp-action="Login">Sign In!</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+}

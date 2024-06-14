@@ -1,0 +1,82 @@
+﻿@model CoursesMVC.Models.DTO.StudentDTO
+
+@{
+    ViewData["Title"] = "Chi Tiết Học Sinh";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CoursesMVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        .detail-container {
+            max-width: 800px;
+            margin: auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .detail-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .detail-list dt {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .detail-list dd {
+            margin-bottom: 20px;
+            color: #777;
+        }
+
+        .alert {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="detail-container">
+            <h2 class="detail-title">@ViewData["Title"]</h2>
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger">
+                    @ViewBag.Error
+                </div>
+            }
+            else
+            {
+                <dl class="row detail-list">
+                    <dt class="col-sm-4">ID Học Sinh:</dt>
+                    <dd class="col-sm-8">@Model.StudentID</dd>
+
+                    <dt class="col-sm-4">Tên Học Sinh:</dt>
+                    <dd class="col-sm-8">@Model.StudentName</dd>
+
+                    <dt class="col-sm-4">Số Điện Thoại:</dt>
+                    <dd class="col-sm-8">@Model.Phones</dd>
+
+                    <dt class="col-sm-4">Email:</dt>
+                    <dd class="col-sm-8">@Model.Email</dd>
+
+                </dl>
+            }
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

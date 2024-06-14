@@ -1,0 +1,102 @@
+﻿@model CoursesMVC.Models.DTO.CoursesDTO
+
+@{
+    ViewData["Title"] = "Chi Tiết Khóa Học";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CoursesMVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        .detail-container {
+            max-width: 800px;
+            margin: auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .detail-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .detail-list dt {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .detail-list dd {
+            margin-bottom: 20px;
+            color: #777;
+        }
+
+        .student-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+            .student-list li {
+                background: #f1f1f1;
+                margin-bottom: 5px;
+                padding: 10px;
+                border-radius: 5px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="detail-container">
+            <h2 class="detail-title">@ViewData["Title"]</h2>
+            <dl class="row detail-list">
+                <dt class="col-sm-4">Mã Khóa Học:</dt>
+                <dd class="col-sm-8">@Model.CoursesID</dd>
+
+                <dt class="col-sm-4">Khóa Học:</dt>
+                <dd class="col-sm-8">@Model.Title</dd>
+
+                <dt class="col-sm-4">Miêu Tả:</dt>
+                <dd class="col-sm-8">@Model.Description</dd>
+
+                <dt class="col-sm-4">Ngày Bắt Đầu:</dt>
+                <dd class="col-sm-8">@Model.StartDate.ToString("yyyy-MM-dd")</dd>
+
+                <dt class="col-sm-4">Ngày Kết Thúc:</dt>
+                <dd class="col-sm-8">@Model.EndDate.ToString("yyyy-MM-dd")</dd>
+
+                <dt class="col-sm-4">Trạng Thái:</dt>
+                <dd class="col-sm-8">@Model.Status</dd>
+
+                <dt class="col-sm-4">Tên Sinh Viên:</dt>
+                <dd class="col-sm-8">
+                    @if (Model.StudentName != null && Model.StudentName.Any())
+                    {
+                        <ul class="student-list">
+                            @foreach (var student in Model.StudentName)
+                            {
+                                <li>@student</li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p>Không có sinh viên được liên kết.</p>
+                    }
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

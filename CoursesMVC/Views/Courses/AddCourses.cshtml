@@ -1,0 +1,105 @@
+﻿@model CoursesMVC.Models.DTO.addCourses
+
+@{
+    ViewData["Title"] = "Thêm Khóa Học";
+}
+
+<h2 class="text-center mt-4">@ViewData["Title"]</h2>
+<div class="container mt-4">
+    <div class="card custom-border">
+        <div class="card-body">
+            <form asp-controller="Courses" asp-action="AddCourses" method="post" class="needs-validation" novalidate>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Title" class="fw-bold">Khóa Học:</label>
+                            @Html.TextBoxFor(model => model.Title, new { @class = "form-control", placeholder = "Nhập tên khóa học", required = "required" })
+                            <div class="invalid-feedback">
+                                Vui lòng nhập tên khóa học.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Description" class="fw-bold">Miêu Tả:</label>
+                            @Html.TextBoxFor(model => model.Description, new { @class = "form-control", placeholder = "Nhập miêu tả khóa học", required = "required" })
+                            <div class="invalid-feedback">
+                                Vui lòng nhập miêu tả khóa học.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="StartDate" class="fw-bold">Ngày Bắt Đầu:</label>
+                            @Html.TextBoxFor(model => model.StartDate, new { @class = "form-control", type = "date", required = "required" })
+                            <div class="invalid-feedback">
+                                Vui lòng chọn ngày bắt đầu.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="EndDate" class="fw-bold">Ngày Kết Thúc:</label>
+                            @Html.TextBoxFor(model => model.EndDate, new { @class = "form-control", type = "date", required = "required" })
+                            <div class="invalid-feedback">
+                                Vui lòng chọn ngày kết thúc.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Status" class="fw-bold">Trạng Thái:</label>
+                            @Html.TextBoxFor(model => model.Status, new { @class = "form-control", placeholder = "Nhập trạng thái khóa học", required = "required" })
+                            <div class="invalid-feedback">
+                                Vui lòng nhập trạng thái khóa học.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="StudentId" class="fw-bold">Tên Học Sinh:</label>
+                            @Html.TextBoxFor(model => model.StudentId, new { @class = "form-control", placeholder = "Nhập tên học sinh (cách nhau bằng dấu phẩy)", required = "required" })
+                            <div class="invalid-feedback">
+                                Vui lòng nhập tên học sinh.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Thêm</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    .custom-border {
+        border: 4px solid #000; /* Make the border thicker and black */
+        border-radius: 15px; /* Make the corners more rounded */
+    }
+</style>
+
+@section Scripts {
+    <script>
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                var forms = document.getElementsByClassName('needs-validation');
+                Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+}
